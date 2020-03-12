@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<link rel="stylesheet" type="text/css" href="style2.css">
+		
+		<header style="font-size:200%">Big Boy Consulting Firm </header>
+		<h1 style="font-size:200%"> About Us</h1>
+		
+
+		<style>
+		body {
+	margin: 0;
+	background-image: url("CFbackground.jpg"); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+		</style>
+	
+	
+	</head>
+	
+	<body>
+	
+	<p class="italic"> Big Boy Consulting Firm has been operating for over 50 years now. We are proud to say that our team 
+		has some of the best and most reliable consultants in the country.
+	
+	<br><br>
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; See More</span>
+	
+	
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href=CFaboutus.html>About Us</a>
+		<a href=CFclients.html>Clients </a>
+		<a href=CFwhatisconsultin.html>What is Consulting?</a>
+		
+		<a href=homepage.html>Back to Homepage</a>
+	</div>
+
+	
+	<script>
+		function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+		function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+	</script>
+
+	</body>
+</html>

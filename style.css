@@ -1,0 +1,24 @@
+	
+	a{
+	background: #ff8a9b;
+	padding: 2px;
+	padding-left:2px;
+	margin-left:-8px;
+}
+	
+	a:hover {
+  background-color: #ff6178;
+}
+	body {
+	background: Lightblue;
+}
+	
+	header {
+	background: #ff8a9b;
+	padding-top: 10px;
+	margin: -8px;
+}
+	
+	h1 {
+	/*background: #ff8a9b;*/
+}
